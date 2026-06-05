@@ -1,5 +1,5 @@
 import { useState, useEffect, useRef } from "react";
-import { Github, Linkedin, Mail, MapPin, ExternalLink, Menu, X } from "lucide-react";
+import { Mail, MapPin, ExternalLink, Menu, X } from "lucide-react";
 
 function useIntersectionObserver() {
   const elementsRef = useRef<(HTMLElement | null)[]>([]);
@@ -75,10 +75,10 @@ function Home() {
           </p>
           <div className="social-links">
             <a href="https://github.com/Euforia-dhruv" target="_blank" rel="noreferrer" className="social-icon" data-testid="link-github">
-              <Github size={20} />
+              <span>GH</span>
             </a>
             <a href="https://linkedin.com/in/dhruvxyn" target="_blank" rel="noreferrer" className="social-icon" data-testid="link-linkedin">
-              <Linkedin size={20} />
+              <span>in</span>
             </a>
             <a href="mailto:dhruvxyn@gmail.com" className="social-icon" data-testid="link-email-hero">
               <Mail size={20} />
@@ -181,7 +181,7 @@ function Home() {
     className="btn btn-outline"
     data-testid="button-github-project"
   >
-    <Github size={16} /> GitHub
+     <span>GH</span> GitHub
   </a>
 </div>
             </div>
