@@ -98,7 +98,7 @@ function Home() {
               </div>
             </div>
             <div className="about-text">
-              <p>Dhruv Brahmbhatt is a Diploma in Computer Engineering graduate from Ganpat University.</p>
+              <p>Hi, I'm  Dhruv...<br />I've completed my Diploma in Computer Engineering from Ganpat University.</p>
               <br />
               <p>A passionate beginner full stack developer on a journey to master React, Node.js, Express, and MongoDB — driven by a love for building things that live on the web.</p>
             </div>
